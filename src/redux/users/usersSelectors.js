@@ -5,4 +5,9 @@ export const selectUsers = (state)=>{
 
 export const selectIsLoading = (state)=> {
     return state.isLoading
+};
+
+export const selectCurrentUser = (state)=> {
+    return state.currentUser
 }
+
